@@ -1,0 +1,15 @@
+#whenever any one change the code linter will check will be the systax,format, indentation (linting ) is correct or not
+ #these will clone the code into the current runner
+
+ name: Auto-linter
+
+ on:  
+   push: 
+     paths: "*.py"
+ jobs:
+   code:
+     runs-on: ubuntu-latest
+     steps:
+       - name: Clone the code
+         uses: actions\checkout@v7       
+   

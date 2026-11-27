@@ -1,0 +1,16 @@
+#workfolw
+#should have name
+name : Hello
+
+#on tells when the workflow should un
+on :
+  workflow_dispatch: 
+#Jobs
+#should be inside of workflow
+jobs:
+  say-hello :
+    runs-on: ubuntu-latest
+
+    steps :
+      - name : Say hello to everyone
+        run: echo "hello dosto"

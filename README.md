@@ -4,4 +4,4 @@
 
 #1.Workflow
 
-To create a GITHUB ACTON workflow you need a folder is called './github/workflows'
+To create a GITHUB ACTON workflow you need a folder is called '.github/workflows'

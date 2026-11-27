@@ -11,5 +11,7 @@
      runs-on: ubuntu-latest
      steps:
        - name: Clone the code
-         uses: actions\checkout@v7       
+         uses: actions\checkout@v7     
+       - name: Install Linter
+         run: pip install ruff
    
